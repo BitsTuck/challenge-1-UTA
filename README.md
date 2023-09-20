@@ -22,7 +22,7 @@ Initial source code and assets were provided through the University of Texas at 
 
 Additional guidance was given by instructor Leah Nelson and Ian Darland in office hours.
 
-
+![Screenshot of refactored Horiseon site](assets/images/Screenshot 2023-09-20 at 3.55.31 PM.png)
 
 ## License
 
