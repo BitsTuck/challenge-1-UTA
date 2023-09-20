@@ -2,43 +2,23 @@
 
 ## Description
 
-The Prework Study Guide is a foundational building tool for the coding bootcamp that I am starting on Monday. It was a good chance to review basic HTML and CSS concepts, and to learn new Javascript and Github techniques. It was built to demonstrate these old and new skills, and to get a feel for the types of skills we will be learning in bootcamp.
+Challenge #1 focused on accessibility and semantic HTML. The goal was to refactor the code to make it easier to read for accessibility tools by replacing the existing code with semantic HTML tags and elements. I replaced the <i>div</i> tags with <i>section</i> and <i>nav</i>> tags, and added <i>alt</i> text to all images. I also renamed the <i>footer</i> element, and an aside tag for the content that was isolated on the side of the page.
 
 
 ## Installation
 
 N/A
 
-## Usage
+## Challenges
 
-The website is divided into four sections: HTML, CSS, Git and Javascript. Notes for each of these skillsets can be kept and maintained in their respective sections, and used for future reference. In DevTools, we can see the Javascript at work, randomly generating which topic we should study first.
+There were a couple of aspects to this project that were tricky. First of all, adding the <i>nav</i> tag took some extra thought, as the initial placement (outside of that section's <i>div</i> tags) caused the menu to appear differently than intended. Placing the <i>nav</i> tag within the <i>UL</i> element resolved the issue. I would have liked to add <i>alt</i> text to the background image, but since the background image is rendered through CSS, it is my understanding that that is not possible. Additionally, the formatting of the <i>H1</i> in the <i>Header</i> could make it tricky to read as a whole word (formatting tags break up the word "Horiseon"), but there is no way to add <i>alt</i> text to this element.
 
 ## Credits
 
-N/A
+Initial source code and assets were provided through the University of Texas at Austin Bootcamp, housed on Github through The Coding Bootcamp account in the urban-octo-telegram repository, https://github.com/coding-boot-camp/urban-octo-telegram
 
 ## License
 
 Please refer to the license in the repo.
 
 ---
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
